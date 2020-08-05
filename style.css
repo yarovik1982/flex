@@ -14,7 +14,7 @@ ul li{list-style:none;}
 img{vertical-align:top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 /*--------------------*/
-/*@import url("media.css");*/
+@import url("media.css");
 
 html body{
 	background-color: rgba(0,0,0,.2);
@@ -206,10 +206,30 @@ p.description{
 	.container{
 		max-width: 780px;
 	}
+.flexx-container__row {
+	display: contents;
+}
+.item__btn{
+	width: 300px;
+	margin:30px auto;
+}
+	.flexx-container__column {
+		padding:15px;
+	}
 }
 
 @media (max-width:580px) {
 	.container{
 		max-widht:580px;
+	}
+	.flexx-container__row{
+		display: contents;
+	}
+	.item__btn{
+	width: 300px;
+	margin:30px auto;
+}
+	.flexx-container__column {
+		padding:15px;
 	}
 }
